@@ -14,6 +14,7 @@
 		BFA76BB92B541BE40021021C /* Cardiff_SkiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BB82B541BE40021021C /* Cardiff_SkiesTests.swift */; };
 		BFA76BC32B541BE40021021C /* Cardiff_SkiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BC22B541BE40021021C /* Cardiff_SkiesUITests.swift */; };
 		BFA76BC52B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BC42B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift */; };
+		BFA76BD22B541DAB0021021C /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BD12B541DAB0021021C /* Page2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BFA76BBE2B541BE40021021C /* Cardiff SkiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardiff SkiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA76BC22B541BE40021021C /* Cardiff_SkiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesUITests.swift; sourceTree = "<group>"; };
 		BFA76BC42B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFA76BD12B541DAB0021021C /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */,
+				BFA76BD12B541DAB0021021C /* Page2.swift */,
 				BFA76BA92B541BE30021021C /* HomeView.swift */,
 				BFA76BAB2B541BE40021021C /* Assets.xcassets */,
 				BFA76BAD2B541BE40021021C /* Preview Content */,
@@ -259,6 +262,7 @@
 			files = (
 				BFA76BAA2B541BE30021021C /* HomeView.swift in Sources */,
 				BFA76BA82B541BE30021021C /* Cardiff_SkiesApp.swift in Sources */,
+				BFA76BD22B541DAB0021021C /* Page2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
