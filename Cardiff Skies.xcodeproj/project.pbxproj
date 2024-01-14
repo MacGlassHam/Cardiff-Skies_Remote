@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BFA76BA82B541BE30021021C /* Cardiff_SkiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */; };
-		BFA76BAA2B541BE30021021C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BA92B541BE30021021C /* ContentView.swift */; };
+		BFA76BAA2B541BE30021021C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BA92B541BE30021021C /* HomeView.swift */; };
 		BFA76BAC2B541BE40021021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA76BAB2B541BE40021021C /* Assets.xcassets */; };
 		BFA76BAF2B541BE40021021C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA76BAE2B541BE40021021C /* Preview Assets.xcassets */; };
 		BFA76BB92B541BE40021021C /* Cardiff_SkiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BB82B541BE40021021C /* Cardiff_SkiesTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		BFA76BA42B541BE30021021C /* Cardiff Skies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardiff Skies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesApp.swift; sourceTree = "<group>"; };
-		BFA76BA92B541BE30021021C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA76BA92B541BE30021021C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BFA76BAB2B541BE40021021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA76BAE2B541BE40021021C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFA76BB42B541BE40021021C /* Cardiff SkiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardiff SkiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */,
-				BFA76BA92B541BE30021021C /* ContentView.swift */,
+				BFA76BA92B541BE30021021C /* HomeView.swift */,
 				BFA76BAB2B541BE40021021C /* Assets.xcassets */,
 				BFA76BAD2B541BE40021021C /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA76BAA2B541BE30021021C /* ContentView.swift in Sources */,
+				BFA76BAA2B541BE30021021C /* HomeView.swift in Sources */,
 				BFA76BA82B541BE30021021C /* Cardiff_SkiesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
