@@ -9,12 +9,18 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        VStack {
-            Color.blue.ignoresSafeArea(.all)
+        
+        ZStack {
+            Color.cyan.ignoresSafeArea(.all)
             Image(systemName: "cloud")
+                .resizable(resizingMode: .tile)
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, Cardiff!")
+                .foregroundColor(.white)
+            Text("Hello, Cardiff!\nThe Weather\nOutside is\nTap to Continue...")
+                .font(.title)
+                .fontWeight(.bold)
+                .multilineTextAlignment(.center)
+            
         }
         .padding()
     }
