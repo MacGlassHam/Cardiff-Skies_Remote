@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFA76BA82B541BE30021021C /* Cardiff_SkiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */; };
+		BFA76BAA2B541BE30021021C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BA92B541BE30021021C /* ContentView.swift */; };
+		BFA76BAC2B541BE40021021C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA76BAB2B541BE40021021C /* Assets.xcassets */; };
+		BFA76BAF2B541BE40021021C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA76BAE2B541BE40021021C /* Preview Assets.xcassets */; };
+		BFA76BB92B541BE40021021C /* Cardiff_SkiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BB82B541BE40021021C /* Cardiff_SkiesTests.swift */; };
+		BFA76BC32B541BE40021021C /* Cardiff_SkiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BC22B541BE40021021C /* Cardiff_SkiesUITests.swift */; };
+		BFA76BC52B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA76BC42B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFA76BB52B541BE40021021C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA76B9C2B541BE30021021C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA76BA32B541BE30021021C;
+			remoteInfo = "Cardiff Skies";
+		};
+		BFA76BBF2B541BE40021021C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFA76B9C2B541BE30021021C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA76BA32B541BE30021021C;
+			remoteInfo = "Cardiff Skies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFA76BA42B541BE30021021C /* Cardiff Skies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cardiff Skies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesApp.swift; sourceTree = "<group>"; };
+		BFA76BA92B541BE30021021C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BFA76BAB2B541BE40021021C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFA76BAE2B541BE40021021C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFA76BB42B541BE40021021C /* Cardiff SkiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardiff SkiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA76BB82B541BE40021021C /* Cardiff_SkiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesTests.swift; sourceTree = "<group>"; };
+		BFA76BBE2B541BE40021021C /* Cardiff SkiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cardiff SkiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA76BC22B541BE40021021C /* Cardiff_SkiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesUITests.swift; sourceTree = "<group>"; };
+		BFA76BC42B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardiff_SkiesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFA76BA12B541BE30021021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BB12B541BE40021021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BBB2B541BE40021021C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFA76B9B2B541BE30021021C = {
+			isa = PBXGroup;
+			children = (
+				BFA76BA62B541BE30021021C /* Cardiff Skies */,
+				BFA76BB72B541BE40021021C /* Cardiff SkiesTests */,
+				BFA76BC12B541BE40021021C /* Cardiff SkiesUITests */,
+				BFA76BA52B541BE30021021C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFA76BA52B541BE30021021C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFA76BA42B541BE30021021C /* Cardiff Skies.app */,
+				BFA76BB42B541BE40021021C /* Cardiff SkiesTests.xctest */,
+				BFA76BBE2B541BE40021021C /* Cardiff SkiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFA76BA62B541BE30021021C /* Cardiff Skies */ = {
+			isa = PBXGroup;
+			children = (
+				BFA76BA72B541BE30021021C /* Cardiff_SkiesApp.swift */,
+				BFA76BA92B541BE30021021C /* ContentView.swift */,
+				BFA76BAB2B541BE40021021C /* Assets.xcassets */,
+				BFA76BAD2B541BE40021021C /* Preview Content */,
+			);
+			path = "Cardiff Skies";
+			sourceTree = "<group>";
+		};
+		BFA76BAD2B541BE40021021C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BFA76BAE2B541BE40021021C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFA76BB72B541BE40021021C /* Cardiff SkiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA76BB82B541BE40021021C /* Cardiff_SkiesTests.swift */,
+			);
+			path = "Cardiff SkiesTests";
+			sourceTree = "<group>";
+		};
+		BFA76BC12B541BE40021021C /* Cardiff SkiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFA76BC22B541BE40021021C /* Cardiff_SkiesUITests.swift */,
+				BFA76BC42B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift */,
+			);
+			path = "Cardiff SkiesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFA76BA32B541BE30021021C /* Cardiff Skies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA76BC82B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff Skies" */;
+			buildPhases = (
+				BFA76BA02B541BE30021021C /* Sources */,
+				BFA76BA12B541BE30021021C /* Frameworks */,
+				BFA76BA22B541BE30021021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cardiff Skies";
+			productName = "Cardiff Skies";
+			productReference = BFA76BA42B541BE30021021C /* Cardiff Skies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFA76BB32B541BE40021021C /* Cardiff SkiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA76BCB2B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff SkiesTests" */;
+			buildPhases = (
+				BFA76BB02B541BE40021021C /* Sources */,
+				BFA76BB12B541BE40021021C /* Frameworks */,
+				BFA76BB22B541BE40021021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA76BB62B541BE40021021C /* PBXTargetDependency */,
+			);
+			name = "Cardiff SkiesTests";
+			productName = "Cardiff SkiesTests";
+			productReference = BFA76BB42B541BE40021021C /* Cardiff SkiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFA76BBD2B541BE40021021C /* Cardiff SkiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFA76BCE2B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff SkiesUITests" */;
+			buildPhases = (
+				BFA76BBA2B541BE40021021C /* Sources */,
+				BFA76BBB2B541BE40021021C /* Frameworks */,
+				BFA76BBC2B541BE40021021C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFA76BC02B541BE40021021C /* PBXTargetDependency */,
+			);
+			name = "Cardiff SkiesUITests";
+			productName = "Cardiff SkiesUITests";
+			productReference = BFA76BBE2B541BE40021021C /* Cardiff SkiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFA76B9C2B541BE30021021C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BFA76BA32B541BE30021021C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BFA76BB32B541BE40021021C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BFA76BA32B541BE30021021C;
+					};
+					BFA76BBD2B541BE40021021C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BFA76BA32B541BE30021021C;
+					};
+				};
+			};
+			buildConfigurationList = BFA76B9F2B541BE30021021C /* Build configuration list for PBXProject "Cardiff Skies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFA76B9B2B541BE30021021C;
+			productRefGroup = BFA76BA52B541BE30021021C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFA76BA32B541BE30021021C /* Cardiff Skies */,
+				BFA76BB32B541BE40021021C /* Cardiff SkiesTests */,
+				BFA76BBD2B541BE40021021C /* Cardiff SkiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA76BA22B541BE30021021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA76BAF2B541BE40021021C /* Preview Assets.xcassets in Resources */,
+				BFA76BAC2B541BE40021021C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BB22B541BE40021021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BBC2B541BE40021021C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFA76BA02B541BE30021021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA76BAA2B541BE30021021C /* ContentView.swift in Sources */,
+				BFA76BA82B541BE30021021C /* Cardiff_SkiesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BB02B541BE40021021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA76BB92B541BE40021021C /* Cardiff_SkiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA76BBA2B541BE40021021C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA76BC52B541BE40021021C /* Cardiff_SkiesUITestsLaunchTests.swift in Sources */,
+				BFA76BC32B541BE40021021C /* Cardiff_SkiesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFA76BB62B541BE40021021C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA76BA32B541BE30021021C /* Cardiff Skies */;
+			targetProxy = BFA76BB52B541BE40021021C /* PBXContainerItemProxy */;
+		};
+		BFA76BC02B541BE40021021C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFA76BA32B541BE30021021C /* Cardiff Skies */;
+			targetProxy = BFA76BBF2B541BE40021021C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BFA76BC62B541BE40021021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFA76BC72B541BE40021021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFA76BC92B541BE40021021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardiff Skies/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-Skies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFA76BCA2B541BE40021021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cardiff Skies/Preview Content\"";
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-Skies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFA76BCC2B541BE40021021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-SkiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiff Skies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardiff Skies";
+			};
+			name = Debug;
+		};
+		BFA76BCD2B541BE40021021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-SkiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cardiff Skies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cardiff Skies";
+			};
+			name = Release;
+		};
+		BFA76BCF2B541BE40021021C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-SkiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardiff Skies";
+			};
+			name = Debug;
+		};
+		BFA76BD02B541BE40021021C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8H7LWX6QY3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Com.Weather.Cardiff-SkiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cardiff Skies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFA76B9F2B541BE30021021C /* Build configuration list for PBXProject "Cardiff Skies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA76BC62B541BE40021021C /* Debug */,
+				BFA76BC72B541BE40021021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA76BC82B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff Skies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA76BC92B541BE40021021C /* Debug */,
+				BFA76BCA2B541BE40021021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA76BCB2B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff SkiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA76BCC2B541BE40021021C /* Debug */,
+				BFA76BCD2B541BE40021021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFA76BCE2B541BE40021021C /* Build configuration list for PBXNativeTarget "Cardiff SkiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA76BCF2B541BE40021021C /* Debug */,
+				BFA76BD02B541BE40021021C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFA76B9C2B541BE30021021C /* Project object */;
+}
