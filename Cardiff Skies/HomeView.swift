@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
+            Color.blue.ignoresSafeArea(.all)
             Image(systemName: "cloud")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
